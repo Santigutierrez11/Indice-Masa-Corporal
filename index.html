@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>IMC</title>
+</head>
+<body>
+    <main>
+        <section class="contenedor">
+            <center>
+                <h1>Indice de Masa Corporal</h1>
+                <table>
+                    <form action="logica.php" method="post">
+                        <tr>
+                            <label for="estatura">
+                                <td><span>Ingrese su Estatura</span></td>
+                                <td><input class="input" type="number" step="any" name="estatura"></td>
+                            </label>
+                        </tr>
+                        <tr>
+                            <label for="peso">
+                                <td><span>Ingrese su Peso en Kilogramos</span></td>
+                                <td><input class="input" type="number" name="peso"></td>
+                            </label>
+                        </tr>
+                        <tr>
+                            <label for="edad">
+                                <td><span>Ingrese su Edad</span></td>
+                                <td><input class="input" type="number" name="edad"></td>
+                            </label>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="button_enviar">Enviar</button>
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </center>
+        </section>
+    </main>
+</body>
+</html>

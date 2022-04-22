@@ -1,0 +1,26 @@
+/* INDEX */
+body {
+    background-image: url(./img/IMC.jpg);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor {
+    border: solid;
+    border-radius: 15px;
+    width: 35%;
+    padding-bottom: 27px;
+    font-size: 20px;
+    margin-top: 100px;
+    background-image: radial-gradient(circle at 50% 87.35%, #7dc185 0, #70c38f 4.55%, #63c498 9.09%, #54c5a2 13.64%, #44c5ad 18.18%, #31c6b7 22.73%, #18c6c2 27.27%, #00c5cc 31.82%, #00c5d5 36.36%, #00c4de 40.91%, #00c3e6 45.45%, #0cc1ed 50%, #2ebff3 54.55%, #46bdf7 59.09%, #5bbafa 63.64%, #6eb7fc 68.18%, #81b4fc 72.73%, #92b1fb 77.27%, #a2adf8 81.82%, #b1a9f4 86.36%, #bfa5ef 90.91%, #cba2e9 95.45%, #d69ee1 100%);
+}
+.input {
+    border-radius: 5px;
+    width: 50px;
+}
+.button_enviar {
+    border-radius: 5px;
+    width: 50px;
+}
